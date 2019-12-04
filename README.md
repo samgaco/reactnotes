@@ -1,6 +1,16 @@
-# reactnotes
-Notes on react
+# React Notes
 
+### Methods for reference
+
+* Here is a list of some of the main lifecycle methods: 
+
+```
+componentWillMount() componentDidMount() shouldComponentUpdate() componentDidUpdate() componentWillUnmount() 
+```
+
+------------------
+
+### Tips
 
 * It's considered a best practice to set propTypes when you know the type of ` a prop ahead of time.
 
@@ -9,6 +19,7 @@ Notes on react
 
 Note: As of React v15.5.0, PropTypes is imported independently from React, like this: import PropTypes from 'prop-types';
 
+------------------
 
 ### Theory
 * A stateless functional component is any function you write which accepts props and returns JSX.
